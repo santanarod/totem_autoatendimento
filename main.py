@@ -89,7 +89,7 @@ def processar_cartao(valor):
     if escolha == "confirmar":
         print("Processando pagamento...")
         sleep(1)
-        autorizacao_cartao = choice([False, True])
+        autorizacao_cartao = choice([True, False])
 
         if autorizacao_cartao == False:
             print("‼️ Operação não autorizada pela Administradora do Cartão")
