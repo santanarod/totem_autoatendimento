@@ -59,7 +59,7 @@ recursos = {
 
 
 def checar_estoque(pedido_ingredientes):
-    # Retorna True quando a ordem pode ser feita, False se os ingredientes são insuficientes
+    # Retorna True quando o pedido pode ser feito, False se os ingredientes são insuficientes
     for item in pedido_ingredientes:
         if pedido_ingredientes[item] >= recursos[item]:
             print(f"Desculpe, o item {item} está em falta no estoque.")
@@ -120,7 +120,7 @@ def checar_transacao(dinheiro_recebido, valor):
         faturamento += valor
         return True
     else:
-        print("Sorry that's not enough money. Money refunded.")
+        print("Desculpe, não há dinheiro suficiente. Dinheiro devolvido")
         return False
 
 
