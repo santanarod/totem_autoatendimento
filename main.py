@@ -11,8 +11,11 @@ from time import sleep
 # O software poderá ser finalizado/desligado.
 # O sistema apresenta o relatório de controle de estoque e caixa.
 
-# OBS.: As linhas 192 e 91 foram comentadas para que o pytest rode os testes no terminal através do comando pytest Pedido.py
-# Para executar o programa com a inserção dos inputs, descomentar as linhas citadas e utilizar o comando pytest Pedido.py -s
+# OBS.: As linhas 192 e 91 foram comentadas para que o pytest rode os testes no terminal através do comando pytest main.py
+# Para executar o programa com a inserção dos inputs, descomentar as linhas citadas e utilizar o comando pytest main.py -s
+
+
+# https://github.com/santanarod/totem_autoatendimento.git
 
 MENU = {
     "big mac": {
